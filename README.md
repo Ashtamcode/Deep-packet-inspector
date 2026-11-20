@@ -2,9 +2,6 @@
 
 A learning-oriented C++17 project that reads classic PCAP captures, parses Ethernet/IPv4/IPv6 TCP and UDP traffic, identifies some application domains from HTTP Host and TLS SNI, applies filtering rules, and writes a filtered PCAP. The Stage 10 version adds a bounded multithreaded processing pipeline with load balancers and fast-path workers.
 
-> **Project scope:** This is an offline PCAP analyzer and filter. It does not capture live traffic, decrypt HTTPS, or block traffic on a live network interface.
-
-**Documentation:** See [PROJECT_DOCUMENTATION.md](PROJECT_DOCUMENTATION.md) for the detailed architecture, packet formats, module responsibilities, thread/queue lifecycle, build commands, CLI options, test results, limitations, and troubleshooting. A formatted Word version is also provided as `PROJECT_DOCUMENTATION.docx`.
 
 ## Features
 
